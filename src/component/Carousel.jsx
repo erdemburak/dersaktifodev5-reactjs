@@ -13,9 +13,8 @@ const items = [
 const Carousel = () => (
     <AliceCarousel
         autoPlay
-        autoPlayControls
         autoPlayStrategy="none"
-        autoPlayInterval={1000}
+        autoPlayInterval={8000}
         animationDuration={1000}
         animationType="fadeout"
         infinite
