@@ -1,5 +1,10 @@
+import Carousel from "./component/Carousel";
+
 function App() {
   return (<>
+    <div>
+      <Carousel />
+    </div>
   </>);
 }
 
